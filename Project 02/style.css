@@ -1,0 +1,110 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+
+.container{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left:40px ;
+    margin-right: 2px;
+    background-image: url(./assets/bg.png);
+    position: relative;
+    width: 1200px;
+    height: 1000px;
+
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.grow-list ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+    color:aliceblue;
+
+}
+
+.navbar img{
+    position: relative;
+    width: 50px;
+    height: 20px;
+    margin: 13px 10px 10px 50px;
+}
+
+.grow-list ul{
+    position: relative;
+    right: 250px;
+}
+
+.button-small{
+    justify-content: center;
+    background-color: purple;
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar button{
+    border-radius: 5px;
+    position: relative;
+    right: 100%;
+    background-color: purple;
+    color: #ffff;
+    height: 30px;
+    width: 120px;
+    border: 1px solid purple;
+    margin-top: 8px;
+    
+}
+
+.hero{
+    /* display: flex; */
+    margin-top: 150px;
+    /* justify-content: space-between; */
+    }
+
+    .hero h1{
+        position: relative;
+        font-size: 80px;
+        color: aliceblue;
+        margin-left: 250px;
+        margin-right: 250px;
+
+    }
+
+    .hero p{
+        position: relative;
+        font-size: 20px;
+        color: aliceblue;
+        align-items: center;
+        margin-top: 0px;
+        margin-left: 390px;
+        /* margin-right: 200px; */
+
+    }
+
+    .hero button{
+        /* position: relative; */
+        position: relative;
+    width: 280px;
+    height: 50px;
+    background-color: purple;
+    border: 2px solid purple;
+    border-radius: 9px;
+    /* margin-top: 500px; */
+    margin-left: 430px;
+    color: aliceblue;
+    font-size: 25px;
+
+    }
+
+
+
